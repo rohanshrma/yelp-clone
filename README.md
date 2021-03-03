@@ -1,2 +1,0 @@
-# yelp-clone
-react app
