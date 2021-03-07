@@ -14,12 +14,13 @@ class SearchBar extends React.Component{
             return <li key={SortByOptionValue}> {sortByOption} </li>;
         });
     }
+
     render() {
         return(
             <div className="SearchBar">
                 <div className="SearchBar-sort-options">
                     <ul>
-                    {SearchBar.renderSortByOptions()}; //step 42
+                    {this.renderSortByOptions()}
                     </ul>
                 </div>
                 <div className="SearchBar-fields">
@@ -33,3 +34,5 @@ class SearchBar extends React.Component{
         );
     }
 };
+
+export default SearchBar;
