@@ -13,9 +13,8 @@ class App extends React.Component{
       <BusinessList />
       <SearchBar /> 
     </div>
-    return(
-
-    );
+    return();
+    
   }
 };
 
